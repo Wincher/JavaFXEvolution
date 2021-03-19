@@ -37,8 +37,8 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>2.5</version>
         <configuration>
-          <!--这里 / \ 会自动适配系统-->
-          <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
+          <!--,如果不按照默认路径配置web.xml, 填写如下配置, 并且 这里 / \ 会自动适配系统-->
+<!--          <webXml>src/main/webapp/WEB-INF/web.xml</webXml>-->
         </configuration>
       </plugin>
     </plugins>
