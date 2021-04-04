@@ -1,7 +1,7 @@
 # JavaFXEvolution
 >从零开始感受架构演进
 
-### stage0
+### How to build a JavaEE application
 > 1. 使用JavaEE 提供的基础API构建应用, 并逐渐构建通用工具, 逐渐抽象出类Spring的开发框架
 使用mvn命令构建应用
 ` mvn archetype:generate -DgroupId=cn.wincher -DartifactId=stage0 -DarchetypeArtifactId=maven-archetype-quickstart `
