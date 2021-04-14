@@ -20,16 +20,15 @@
 </head>
 <body>
 	<div class="container">
-		<form action="user/form-register">
+		<form method="post" action="form-register">
 			<h1 class="h3 mb-3 font-weight-normal">注册</h1>
 			<label for="inputEmail" class="sr-only">请输出电子邮件</label> <input
-				type="email" id="inputEmail" class="form-control"
+				type="email" name="email" id="inputEmail" class="form-control"
 				placeholder="请输入电子邮件" required autofocus> <label
 				for="inputPassword" class="sr-only">Password</label> <input
-				type="password" id="inputPassword" class="form-control"
+				type="password" name="password" id="inputPassword" class="form-control"
 				placeholder="请输入密码" required>
-			<button class="btn btn-lg btn-primary btn-block" type="submit">Sign
-				in</button>
+			<button class="btn btn-lg btn-primary btn-block" type="submit">注册</button>
 			<p class="mt-5 mb-3 text-muted">&copy; 2017-2021</p>
 		</form>
 	</div>
